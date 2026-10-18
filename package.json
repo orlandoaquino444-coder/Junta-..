@@ -1,0 +1,22 @@
+{
+  "name": "mi-red-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma de negocios, productos, servicios y eventos con Firebase, Cloudinary y PayPal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "firebase-admin": "^13.0.2",
+    "helmet": "^8.0.0",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
